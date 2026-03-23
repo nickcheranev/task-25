@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: rest-server
+
+  datasource:
+    url: jdbc:h2:mem:testdb
+  jpa:
+    generate-ddl: false
+    show-sql: false
+    hibernate:
+      ddl-auto: none
+    open-in-view: true
+  h2:
+    console:
+      path: /h2-console
+      settings:
+        web-allow-others: true
+
+logging:
+  level:
+    root: INFO
