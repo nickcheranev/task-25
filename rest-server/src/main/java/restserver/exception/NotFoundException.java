@@ -1,4 +1,4 @@
-package restclient.exception;
+package restserver.exception;
 
 public class NotFoundException extends RuntimeException {
     public NotFoundException(String message) {

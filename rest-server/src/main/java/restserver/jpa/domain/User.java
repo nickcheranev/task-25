@@ -1,4 +1,4 @@
-package restclient.jpa.domain;
+package restserver.jpa.domain;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

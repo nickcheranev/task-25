@@ -1,7 +1,7 @@
-package restclient.jpa;
+package restserver.jpa;
 
 import org.springframework.data.repository.ListCrudRepository;
-import restclient.jpa.domain.User;
+import restserver.jpa.domain.User;
 
 /**
  * JPA репозиторий пользователей
