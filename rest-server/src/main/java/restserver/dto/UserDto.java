@@ -1,4 +1,4 @@
-package restclient.dto;
+package restserver.dto;
 
 import lombok.Data;
 import lombok.experimental.Accessors;

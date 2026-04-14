@@ -1,8 +1,8 @@
-package restclient.utils;
+package restserver.utils;
 
-import restclient.dto.UserDto;
+import restserver.dto.UserDto;
 import org.springframework.stereotype.Component;
-import restclient.jpa.domain.User;
+import restserver.jpa.domain.User;
 
 @Component
 public class MappingUtil {

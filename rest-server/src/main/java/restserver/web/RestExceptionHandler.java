@@ -1,9 +1,9 @@
-package restclient.web;
+package restserver.web;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
-import restclient.exception.NotFoundException;
+import restserver.exception.NotFoundException;
 
 @RestControllerAdvice
 public class RestExceptionHandler {

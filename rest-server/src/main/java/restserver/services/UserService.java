@@ -1,7 +1,7 @@
-package restclient.services;
+package restserver.services;
 
 import org.springframework.stereotype.Service;
-import restclient.dto.UserDto;
+import restserver.dto.UserDto;
 
 import java.util.List;
 

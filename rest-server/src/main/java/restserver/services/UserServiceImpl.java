@@ -1,13 +1,13 @@
-package restclient.services;
+package restserver.services;
 
 import lombok.RequiredArgsConstructor;
-import restclient.dto.UserDto;
+import restserver.dto.UserDto;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import restclient.exception.NotFoundException;
-import restclient.jpa.UserRepository;
-import restclient.jpa.domain.User;
-import restclient.utils.MappingUtil;
+import restserver.exception.NotFoundException;
+import restserver.jpa.UserRepository;
+import restserver.jpa.domain.User;
+import restserver.utils.MappingUtil;
 
 import java.util.List;
 

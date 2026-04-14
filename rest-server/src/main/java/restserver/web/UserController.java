@@ -1,4 +1,4 @@
-package restclient.web;
+package restserver.web;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import restclient.dto.UserDto;
-import restclient.services.UserService;
+import restserver.dto.UserDto;
+import restserver.services.UserService;
 
 import java.util.List;
 
