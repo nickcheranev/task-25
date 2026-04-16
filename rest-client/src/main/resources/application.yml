@@ -1,8 +1,9 @@
 spring:
   application:
     name: rest-client
-  main:
-    web-application-type: none
+
+rest-server:
+  url: http://rest-server:8080/
 
 logging:
   level:
