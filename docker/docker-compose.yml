@@ -1,0 +1,25 @@
+version: "3.9"
+name: otus-rest
+services:
+
+  rest-server:
+    container_name: rest-server
+    hostname: rest-server
+    build:
+      context: .
+      dockerfile: Dockerfile-rest-server
+    expose:
+      - "8080"
+    entrypoint: [ "java","-Djava.security.egd=file:/dev/./urandom","-jar","app.jar" ]
+
+  rest-client:
+    container_name: rest-client
+    hostname: rest-client
+    build:
+      context: .
+      dockerfile: Dockerfile-rest-client
+    expose:
+      - "8080"
+    ports:
+      - "8080:8080"
+    entrypoint: [ "java","-Djava.security.egd=file:/dev/./urandom","-jar","app.jar" ]
